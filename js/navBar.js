@@ -61,6 +61,7 @@ window.addEventListener('DOMContentLoaded', event => {
     // document.addEventListener('scroll', navbarShrink); // old version without smooth-scrollbar
     bodyScrollBar.addListener(navbarShrink);
 
+    // not working with smooth-scrollbar
     // Activate Bootstrap scrollspy on the main nav element
     // const mainNav = document.body.querySelector('#mainNav');
     // if (mainNav) {

@@ -9,7 +9,7 @@ $(function () { // wait for document ready
         duration: $("#reveal-features-grid").height() + 700, 
         offset: 100 // move trigger to center of element
     })
-    .setClassToggle("#reveal-features-grid", "visible") // add class to reveal
+    .setClassToggle('#reveal-features-grid', 'visible')
     // .addIndicators() // add indicators (requires plugin)
     .addTo(controller);
 
@@ -20,7 +20,7 @@ $(function () { // wait for document ready
         duration: "85%", 
         offset: 100 // move trigger to center of element
     })
-    .setClassToggle("#reveal-testimonials-title", "visible") // add class to reveal
+    .setClassToggle('#reveal-testimonials-title', 'visible')
     // .addIndicators() // add indicators (requires plugin)
     .addTo(controller);
 
@@ -45,7 +45,7 @@ $(function () { // wait for document ready
         duration: "85%", 
         offset: 100 // move trigger to center of element
     })
-    .setClassToggle("#reveal-pricing-title", "visible") // add class to reveal
+    .setClassToggle('#reveal-pricing-title', 'visible')
     // .addIndicators() // add indicators (requires plugin)
     .addTo(controller);
 

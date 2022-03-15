@@ -33,7 +33,6 @@ window.addEventListener('DOMContentLoaded', event => {
 
     // Navbar shrink function
     var navbarShrink = function (e) {
-        console.log(e);
         const navbarCollapsible = document.body.querySelector('#mainNav');
         if (!navbarCollapsible) {
             return;
@@ -53,13 +52,35 @@ window.addEventListener('DOMContentLoaded', event => {
         }
     };
 
+    // const navBarItems = document.querySelectorAll('.nav-link');
+    // const sections = document.querySelectorAll('.page-section');
+
+    function scrollBarScroll(e) {
+        navbarShrink(e);
+
+        // let taken = false;
+        // for (let i = 0; i < sections.length; i++) {
+        //     if (bodyScrollBar.isVisible(sections[i])) { 
+        //         if (!navBarItems[i].classList.contains('active') && !taken) {
+        //             taken = true;
+        //             navBarItems[i].classList.add('active');
+        //         }  
+        //     } else {
+        //         if (navBarItems[i].classList.contains('active'))
+        //             navBarItems[i].classList.remove('active');
+        //     }
+        // }
+    }
+
+    
+
     // Shrink the navbar 
     navbarShrink({offset: {y: 0}});
 
     bodyScrollBar.scrollTo()
     // Shrink the navbar when page is scrolled
     // document.addEventListener('scroll', navbarShrink); // old version without smooth-scrollbar
-    bodyScrollBar.addListener(navbarShrink);
+    bodyScrollBar.addListener(scrollBarScroll);
 
     // not working with smooth-scrollbar
     // Activate Bootstrap scrollspy on the main nav element

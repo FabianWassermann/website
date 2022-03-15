@@ -31,10 +31,10 @@ window.addEventListener('DOMContentLoaded', event => {
         }
     }, false);
 
-    const navItems = document.querySelectorAll('.nav-link');
+    const hashTrigger = document.querySelectorAll('.hash-trigger');
 
-    for (let i = 0; i < navItems.length; i++) {
-        navItems[i].addEventListener("click", function() {
+    for (let i = 0; i < hashTrigger.length; i++) {
+        hashTrigger[i].addEventListener("click", function() {
             const hash = window.location.hash;
             if (hash) {
                 const target = document.getElementById(hash.substring(1));

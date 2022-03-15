@@ -31,6 +31,22 @@ window.addEventListener('DOMContentLoaded', event => {
         }
     }, false);
 
+    const navItems = document.querySelectorAll('.nav-link');
+
+    for (let i = 0; i < navItems.length; i++) {
+        navItems[i].addEventListener("click", function() {
+            const hash = window.location.hash;
+            if (hash) {
+                const target = document.getElementById(hash.substring(1));
+                if (target) {
+                    bodyScrollBar.scrollIntoView(target, {
+                        offsetTop: -bodyScrollBar.containerEl.scrollTop,
+                    });
+                }
+            }
+        });
+    }
+
     // Navbar shrink function
     var navbarShrink = function (e) {
         const navbarCollapsible = document.body.querySelector('#mainNav');

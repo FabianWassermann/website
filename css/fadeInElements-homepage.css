@@ -1,0 +1,164 @@
+/* FEATURES GRID */
+#reveal-features-grid {
+    opacity: 0;
+    -webkit-transform: scale(0.9);
+         -moz-transform: scale(0.9);
+            -ms-transform: scale(0.9);
+             -o-transform: scale(0.9);
+                    transform: scale(0.9);
+    -webkit-transition: all 0.8s ease-in-out;
+         -moz-transition: all 0.8s ease-in-out;
+            -ms-transition: all 0.8s ease-in-out;
+             -o-transition: all 0.8s ease-in-out;
+                    transition: all 0.8s ease-in-out;
+}
+
+#reveal-features-grid.visible {
+    opacity: 1;
+    -webkit-transform: none;
+         -moz-transform: none;
+            -ms-transform: none;
+             -o-transform: none;
+                    transform: none;
+}
+
+/* TESTIMONIALS TITLE */
+#reveal-testimonials-title {
+   opacity: 0;
+   -webkit-transform: scale(0.9);
+        -moz-transform: scale(0.9);
+           -ms-transform: scale(0.9);
+            -o-transform: scale(0.9);
+                   transform: scale(0.9);
+   -webkit-transition: all 0.8s ease-in-out;
+        -moz-transition: all 0.8s ease-in-out;
+           -ms-transition: all 0.8s ease-in-out;
+            -o-transition: all 0.8s ease-in-out;
+                   transition: all 0.8s ease-in-out;
+}
+
+#reveal-testimonials-title.visible {
+   opacity: 1;
+   -webkit-transform: none;
+        -moz-transform: none;
+           -ms-transform: none;
+            -o-transform: none;
+                   transform: none;
+}
+
+/* TESTIMONIALS ITEMS */
+.testimonial-item {
+   opacity: 0;
+   -webkit-transform: translateX(-40px);
+       -moz-transform: translateX(-40px);
+         -ms-transform: translateX(-40px);
+          -o-transform: translateX(-40px);
+               transform: translateX(-40px);
+   -webkit-transition: all 0.6s ease-out;
+       -moz-transition: all 0.6s ease-out;
+         -ms-transition: all 0.6s ease-out;
+          -o-transition: all 0.6s ease-out;
+               transition: all 0.6s ease-out;
+}
+.testimonial-item.visible {
+   opacity: 1;
+   -webkit-transform: none;
+       -moz-transform: none;
+         -ms-transform: none;
+          -o-transform: none;
+               transform: none;
+}
+
+/* PRICING TITLE */
+#reveal-pricing-title {
+   opacity: 0;
+   -webkit-transform: scale(0.9);
+        -moz-transform: scale(0.9);
+           -ms-transform: scale(0.9);
+            -o-transform: scale(0.9);
+                   transform: scale(0.9);
+   -webkit-transition: all 0.8s ease-in-out;
+        -moz-transition: all 0.8s ease-in-out;
+           -ms-transition: all 0.8s ease-in-out;
+            -o-transition: all 0.8s ease-in-out;
+                   transition: all 0.8s ease-in-out;
+}
+
+#reveal-pricing-title.visible {
+   opacity: 1;
+   -webkit-transform: none;
+        -moz-transform: none;
+           -ms-transform: none;
+            -o-transform: none;
+                   transform: none;
+}
+
+/* PRICING ITEMS */
+.pricing-item {
+   opacity: 0;
+   -webkit-transform: translateX(-40px);
+       -moz-transform: translateX(-40px);
+         -ms-transform: translateX(-40px);
+          -o-transform: translateX(-40px);
+               transform: translateX(-40px);
+   -webkit-transition: all 0.6s ease-out;
+       -moz-transition: all 0.6s ease-out;
+         -ms-transition: all 0.6s ease-out;
+          -o-transition: all 0.6s ease-out;
+               transition: all 0.6s ease-out;
+}
+.pricing-item.visible {
+   opacity: 1;
+   -webkit-transform: none;
+       -moz-transform: none;
+         -ms-transform: none;
+          -o-transform: none;
+               transform: none;
+}
+
+/* ABOUT TITLE */
+#reveal-about-title {
+   opacity: 0;
+   -webkit-transform: scale(0.9);
+        -moz-transform: scale(0.9);
+           -ms-transform: scale(0.9);
+            -o-transform: scale(0.9);
+                   transform: scale(0.9);
+   -webkit-transition: all 0.8s ease-in-out;
+        -moz-transition: all 0.8s ease-in-out;
+           -ms-transition: all 0.8s ease-in-out;
+            -o-transition: all 0.8s ease-in-out;
+                   transition: all 0.8s ease-in-out;
+}
+
+#reveal-about-title.visible {
+   opacity: 1;
+   -webkit-transform: none;
+        -moz-transform: none;
+           -ms-transform: none;
+            -o-transform: none;
+                   transform: none;
+}
+
+/* TIMELINE(ABOUT) ITEMS */
+.timeline-item {
+   opacity: 0;
+   -webkit-transform: translateX(-40px);
+       -moz-transform: translateX(-40px);
+         -ms-transform: translateX(-40px);
+          -o-transform: translateX(-40px);
+               transform: translateX(-40px);
+   -webkit-transition: all 0.6s ease-out;
+       -moz-transition: all 0.6s ease-out;
+         -ms-transition: all 0.6s ease-out;
+          -o-transition: all 0.6s ease-out;
+               transition: all 0.6s ease-out;
+}
+.timeline-item.visible {
+   opacity: 1;
+   -webkit-transform: none;
+       -moz-transform: none;
+         -ms-transform: none;
+          -o-transform: none;
+               transform: none;
+}
